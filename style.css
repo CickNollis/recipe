@@ -79,10 +79,6 @@ h3 {
     margin: auto 0;
 }
 
-header {
-    box-shadow: 0px 5px 2px rgba(148, 148, 148, 0.5);
-}
-
 p {
     font-family: 'Monstserrat', Arial, sans-serif;
     padding: 10px;
@@ -97,12 +93,11 @@ dd, li, nav, input {
 
 /*nav bar*/
 nav {
-    width: 100%;
     position: absolute;
     top: 0;
-    overflow: hidden;
     align-items: right;
     justify-content: center;
+    background-color: white;
 }
 
 nav a {
@@ -111,21 +106,16 @@ nav a {
     font-variant: small-caps;
     color: #EB5428;
 }
+nav img:hover {
+    background-color: #EB5428;
+}
 
 
 /* menu */
 
-.header {
-    display: flex;
-    overflow: hidden;
-}
 
 #taco {
-    margin-left: 10px;
-    margin-right: 5px;
-    max-width: 100%;
-    height: auto;
-
+    
 }
 
 menu li {
@@ -159,7 +149,8 @@ ol li {
 }
 
 ul {
-    list-style-type: square;
+    list-style-type: none;
+    display: flex;
 }
 
 .rating svg {
